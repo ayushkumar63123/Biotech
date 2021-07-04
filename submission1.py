@@ -5,7 +5,7 @@ import sys
 
 def speak(filename, text):
     tts = gTTS(text, lang='en')
-    tts.save(filename)
+    tts.save(filename + '.mp3')
     playsound(filename + '.mp3')
 
 
