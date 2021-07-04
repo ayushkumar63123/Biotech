@@ -81,7 +81,7 @@ if command1 == '1':
     dna_file = input("Please enter the .txt filename containing the dna sequence only: ")
     find_gene(dna_file)
 
-if command1 == 2:
+if command1 == '2':
     o3 = int(input("Enter the ppm quantity of o3: "))
     no2 = int(input("Enter the ppm quantity of no2: "))
     pm = int(input("Enter the ppm quantity of pm: "))
