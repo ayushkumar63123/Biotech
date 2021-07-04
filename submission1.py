@@ -12,7 +12,7 @@ def speak(filename, text):
 
 speak('Hello! Welcome to this biotech app!', '111')
 
-speak("Please enter 1 if you want to find genes in a dna sequence. Enter 2 to find air quality health index")
+speak("Please enter 1 if you want to find genes in a dna sequence. Enter 2 to find air quality health index", '114')
 
 command1 = input("Please enter 1 if you want to find first gene in a dna sequence. Enter 2 to find air quality health index")
 
