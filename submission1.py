@@ -86,4 +86,4 @@ if command1 == '2':
     no2 = int(input("Enter the ppm quantity of no2: "))
     pm = int(input("Enter the ppm quantity of pm: "))
     print('Air Quality Health Index:-')
-    airqualityindex(o2, no2, pm)
+    airqualityindex(o3, no2, pm)
