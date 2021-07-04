@@ -1,4 +1,3 @@
-import pandas as pd
 from gtts import gTTS
 from playsound import playsound
 import sys
