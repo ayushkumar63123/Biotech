@@ -17,7 +17,7 @@ command1 = input("Please enter 1 if you want to find first gene in a dna sequenc
 
 
 def find_gene(filename):
-    with open(filename + '.txt', r) as file1:
+    with open(filename + '.txt', 'r') as file1:
         dna = file1.read()
         if 'ATG' not in dna:
             print('No gene found. System exiting....')
